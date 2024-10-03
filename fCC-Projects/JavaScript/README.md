@@ -1,4 +1,4 @@
-# freeCodeCamp-Projects
+# freeCodeCamp-Projects(JavaScript)
 
 FreeCodeCamp JavaScript Projects
 This repository contains my JavaScript projects completed as part of the FreeCodeCamp curriculum. These projects helped me build a solid foundation in JavaScript and algorithmic thinking. Feel free to explore the code, provide feedback, or fork the repository.
