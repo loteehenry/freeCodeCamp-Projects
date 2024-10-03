@@ -10,9 +10,8 @@ Projects Included
       Checks if the inputed string is a palindrome or not.
       Accepts all characters as inputs, including integers and special characters.
   - Technologies Used:
-      JavaScript (fetch API for making HTTP requests)
+      JavaScript
       HTML5/CSS3
-      PokéAPI
 
 2. Roman Numeral Converter
   - Description: An HTML web app that converts integer inputs to Roman Numerals.
@@ -20,18 +19,16 @@ Projects Included
       Converts numeric inputs to Roman Numerals.
       Limited to 3999.
   - Technologies Used:
-      JavaScript (fetch API for making HTTP requests)
+      JavaScript
       HTML5/CSS3
-      PokéAPI
     
 3. Telephone Number Validator
    - Description: Accepts telephone numbers and validates if they're in a valid US format.
    - Features:
        Validates inputed numbers in US format
    - Technologies Used:
-      JavaScript (fetch API for making HTTP requests)
+      JavaScript
       HTML5/CSS3
-      PokéAPI
 
 4. Cash Register
   - Description: A JavaScript program that simulates a cash register and calculates the change to return based on the amount in the drawer.
@@ -40,9 +37,8 @@ Projects Included
       Handles multiple denominations (pennies, nickels, dimes, etc.).
   - Challenges: I encountered a bug where the 'CLOSED' status wasn't updating correctly, but I fixed it by adjusting my logic in the calcUnits function.
   - Technologies Used:
-      JavaScript (fetch API for making HTTP requests)
+      JavaScript
       HTML5/CSS3
-      PokéAPI
 
 5. Pokémon Search App
   - Description: A web application that allows users to search for Pokémon by name or type. The app fetches data from the PokéAPI and displays key details such as Pokémon stats, abilities, and images.
