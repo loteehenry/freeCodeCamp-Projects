@@ -1,0 +1,137 @@
+:root {
+    --black-color: #000;
+    --register-color: #888;
+    --white-color: #FFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/*h2 {
+    margin: 0;
+}*/
+
+#register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: 75%;
+}
+
+.screen{
+    background: var(--black-color);
+    color: var(--white-color);
+    width: 150px;
+    padding: 8px 0;
+    border: 10px solid var(--register-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+        width: 10px;
+        height: 30px;
+        background: var(--register-color);
+    }
+}
+
+.register-body {
+    background: var(--register-color);
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: inherit;
+
+    .input-section {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+        #cash {
+            background: var(--black-color);
+            color: var(--white-color);
+            height: 30px;
+            width: 150px;
+        }
+
+        #purchase-btn {
+            background: var(--black-color);
+            color: var(--white-color);
+            padding: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .change-display {
+        background: var(--black-color);
+        color: var(--white-color);
+        height: 30px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+
+        .left-col, .right-col {
+            background: var(--white-color);
+            width: 50%;
+            padding: 5px;
+            text-align: center;
+        }
+
+        h4 {
+            margin: 0 0 10px 0;
+        }
+    }
+}
+
+.register-base {
+    height: 40px;
+    width: inherit;
+    background: var(--register-color);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .knob {
+        width: 20px;
+        height: 20px;
+        background: var(--black-color);
+        border-radius: 50%;
+    }
+}

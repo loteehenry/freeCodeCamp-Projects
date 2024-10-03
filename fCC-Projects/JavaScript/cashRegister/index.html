@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register WebApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Cash Register Project 📠</h2>
+
+    <main id="register">
+        <div class="screen">
+            <span id="price"></span>
+        </div>
+        <div class="links">
+            <div class="link"></div>
+            <div class="link"></div>
+        </div>
+        <div class="register-body">
+            <div class="input-section">
+                <input id="cash" type="number">
+                <button id="purchase-btn" type="button">Purchase</button>
+            </div>
+            <div class="change-display">
+                <span id="change"></span>
+            </div>
+            <div class="body">
+                <div class="left-col">
+                    <div id="cash-in-drawer"></div>
+                </div>
+                <div class="right-col">
+                    <div id="change-due"><strong>Change Due:</strong></br></div>
+                </div>
+            </div>
+        </div>
+        <div class="register-base">
+            <div class="knob"></div>
+        </div>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,93 @@
+:root{
+    --primary-color: #000000;
+    --secondary-color: #ffab02;
+    --accent-color: #bfbfbf;
+    --neutral-color: #ffffff;
+    --font-family: Tahoma;
+}
+  
+body{
+    background: radial-gradient(
+      var(--secondary-color),
+      var(--primary-color)
+    );
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    height: 100vh;
+}
+  
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--accent-color);
+    border: 5px solid var(--secondary-color);
+    border-radius: 5em;
+    width: 400px;
+    height: 500px;
+}
+  
+header{
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+header h1{
+    font-size: 24px;
+}
+
+hr{
+    background: var(--primary-color);
+    height: 3px;
+    width: 80%;
+    border: none;
+}
+  
+#inputSection{
+    display: flex;
+    flex-direction: column;
+}
+  
+#inputContainer{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+  
+#inputSection p{
+    font-weight: bold;
+}
+  
+#check-btn{
+    background: var(--secondary-color);
+    font-weight: bold;
+}
+  
+#result{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--secondary-color);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 0 5px 3px #000000;
+}
+  
+#definitionText{
+    background: black;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+}

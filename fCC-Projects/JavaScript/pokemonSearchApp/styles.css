@@ -1,0 +1,113 @@
+:root {
+    --text-color: #FFFFFF;
+    --accent-color: #222222;
+}
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Tahoma;
+    color: var(--text-color);
+}
+  
+body {
+    background: url("https://upload.wikimedia.org/wikipedia/en/9/9e/150_Pokemon_from_Pokemon_Stadium.png");
+}
+  
+main {
+    margin-top: 50px;
+    border: 3px solid rgba(355, 255, 255, .5);
+    border-radius: 1em;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+  
+main h1 {
+    color: var(--text-color);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+  
+main .search-card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+main .search-card .search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+main .search-card .search-section input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    height: 30px;
+    color: var(--text-color);
+    width: 100%;
+}
+  
+main .search-card .search-section input::placeholder{
+    color: var(--text-color);
+    opacity: .5;
+}
+  
+main .search-card .search-section input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+  
+main .search-card .search-section button {
+    width: 80%;
+    background: var(--accent-color);
+    border: none;
+    color: var(--text-color);
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 2em;
+    cursor: pointer;
+}
+  
+main .search-card .top-output-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+  
+main .search-card .top-output-container #types .type {
+    background: #22222280;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 1em;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    border: 2px solid;
+    width: 50%; 
+    padding: 5px;
+}
+  
